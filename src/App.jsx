@@ -4,14 +4,14 @@ import Hero from './components/Hero';
 import BlogList from './components/BlogList';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
+// import { blogPosts } from './data/blogData';
 import { blogPosts, categories, popularTags } from './data/blogData';
 
-function App() {
+
+const App = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
-
   const featuredPost = blogPosts.find(post => post.featured) || blogPosts[0];
-
   const filteredPosts = useMemo(() => {
     return blogPosts.filter(post => {
       const matchesSearch = post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -32,8 +32,8 @@ function App() {
     setSelectedCategory(category === selectedCategory ? '' : category);
   };
 
-  return (
-    <div className="min-h-screen bg-blue-900">
+return (
+      <div className="min-h-screen bg-blue-900">
       <Header onSearch={handleSearch} />
       
       <main>
@@ -61,7 +61,7 @@ function App() {
       
       <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
