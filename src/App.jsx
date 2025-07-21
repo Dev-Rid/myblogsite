@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import BlogList from './components/BlogList';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
-// import { blogPosts } from './data/blogData';
 import { blogPosts, categories, popularTags } from './data/blogData';
 
 
