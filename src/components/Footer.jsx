@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="p-2 bg-blue-600 rounded-lg">
                 <BookOpen className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-bold">DevBlog</span>
+              <span className="text-xl font-bold">BiolaBlog</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed max-w-md">
               A modern blog focused on web development, sharing insights about React, TypeScript, 
