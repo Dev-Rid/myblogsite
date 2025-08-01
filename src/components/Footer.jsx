@@ -20,16 +20,16 @@ const Footer = () => {
               performance optimization, and the latest trends in frontend development.
             </p>
             <div className="flex space-x-4 mt-6">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
+              <a href="https://x.com/Ajibade11306450" className="text-gray-400 hover:text-white transition-colors duration-200">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
+              <a href="https://github.com/Dev-Rid" className="text-gray-400 hover:text-white transition-colors duration-200">
                 <Github className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
+              <a href="https://www.linkedin.com/in/abiola-ridwan-9a60a2230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-gray-400 hover:text-white transition-colors duration-200">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
+              <a href="mailto:ridwanabiola2000@gmail.com?subject=Subject&body=Hello%20there!" className="text-gray-400 hover:text-white transition-colors duration-200">
                 <Mail className="h-5 w-5" />
               </a>
             </div>
@@ -92,7 +92,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 DevBlog. All rights reserved.
+            © 2024 BiolaBlog. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200 text-sm">

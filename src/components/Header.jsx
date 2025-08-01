@@ -29,7 +29,7 @@ const Header = () => {
             <div className="p-2 bg-blue-600 rounded-lg group-hover:bg-blue-700 transition-colors duration-200">
               <BookOpen className="h-6 w-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-gray-900">DevBlog</span>
+            <span className="text-xl font-bold text-gray-900">BiolaBlog</span>
           </Link>
 
           {/* Desktop Navigation */}
